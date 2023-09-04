@@ -37,6 +37,12 @@ body {
 
   .bx-list-ul {
     font-size: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .bx-list-ul:hover {
+    transform: scale(1.1);
   }
 
   .imgtenis {
@@ -290,6 +296,12 @@ body {
     color: white;
     border-radius: 30px;
     border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .go:hover {
+    transform: scale(1.1);
   }
   
   form {
@@ -323,6 +335,11 @@ body {
   .redes {
     color: white;
     font-size: 25px;
+    transition: all 0.5s;
+  }
+
+  .redes:hover {
+    transform: scale(1.2);
   }
 
   .redessociales {
