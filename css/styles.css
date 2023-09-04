@@ -53,14 +53,13 @@ body {
 
   .live {
     text-align: right;
-    margin: 60px;
-    width: 280px;
+    margin: 30px;
   }
 
   h1 {
     font-weight: bold;
     margin-bottom: 20px;
-    width: 280px;
+    
     font-size: 40px;
   }
 
@@ -91,18 +90,19 @@ body {
     padding: 50px 20px;
     max-width: 100vw;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .h2 {
     margin-bottom: 50px;
     color: white;
-    width: 300px;
     font-size: 30px;
   }
 
   .whatsdifferent2 {
-    color: white;
-    width: 340px;
+    color: white; 
   }
 
   .cards1 {
@@ -128,7 +128,7 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     align-items: center;
-    width: 52vh;
+    width: 100vw;
     margin-bottom: 30px;
   }
 
@@ -148,7 +148,7 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     align-items: center;
-    width: 52vh;
+    width: 100vw;
     margin-bottom: 30px;
   }
 
@@ -167,7 +167,7 @@ body {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     align-items: center;
-    width: 52vh;
+    width: 100vw;
     margin-bottom: 30px;
   }
 
@@ -269,7 +269,7 @@ body {
 
   footer  {
     background-color: rgb(30,30,38);
-    height: 65vh;
+    object-fit: cover;
   }
 
   #busqueda {
@@ -293,8 +293,7 @@ body {
   }
   
   form {
-    position: relative;
-    top: 40px;
+    padding-top: 40px;
     margin-bottom: 70px;
   }
 
@@ -341,6 +340,7 @@ body {
   .copy {
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 30px;
   }
 
   .copy2 {
