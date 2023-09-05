@@ -311,10 +311,20 @@ body {
 
   .ulfooter {
     color: white;
+    transition: all 0.5s;
+  }
+
+  .ulfooter:hover {
+    opacity: 0.9;
   }
 
   .ulfooter2 {
     color: white;
+    transition: all 0.5s;
+  }
+
+  .ulfooter2:hover {
+    opacity: 0.9;
   }
 
   .uls {
