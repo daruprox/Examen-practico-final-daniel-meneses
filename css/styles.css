@@ -18,9 +18,6 @@ body {
 @keyframes pagina {
   0% {
     opacity: 0%;
-  }
-
-  25% {
     transform: translateY(-90px);
   }
 
@@ -30,9 +27,8 @@ body {
 }
 
 @media (max-width: 767px) {
-
-  .imgheader {
-    width: 50%;
+  .logoheader img {
+    width: 200px;
   }
 
   header {
@@ -42,7 +38,7 @@ body {
     justify-content: space-between;
   }
 
-  .ul1 {
+  .navheader ul {
     display: none;
   }
 
@@ -50,13 +46,13 @@ body {
     display: none;
   }
 
-  .bx-list-ul {
+  .navheader i {
     font-size: 50px;
     cursor: pointer;
     transition: all 0.5s;
   }
 
-  .bx-list-ul:hover {
+  .navheader i:hover {
     transform: scale(1.1);
   }
 
@@ -65,7 +61,7 @@ body {
     justify-content: center;
   }
 
-  .imgtenis2 {
+  .imgtenis img {
     width: 300px;
     display: flex;
     justify-content: center;
@@ -77,37 +73,36 @@ body {
     margin: 30px;
   }
 
+  .live p {
+    margin-bottom: 20px;
+  }
+
   h1 {
     font-weight: bold;
     margin-bottom: 20px;
-    
     font-size: 40px;
   }
 
-  .thefinal {
-    margin-bottom: 20px;
-  }
-
-  .contact2 {
-    background-color: rgb(139,72,191);
+  .live button {
+    background-color: rgb(139, 72, 191);
     border-radius: 30px;
     padding: 10px 35px;
     border: none;
     transition: all 0.5s;
     cursor: pointer;
   }
-  
-  .contact2:hover {
+
+  .live button:hover {
     transform: scale(1.1);
   }
-  
-  .contact3 {
+
+  .live button a {
     color: white;
     font-size: 12px;
   }
 
   .whatsdifferent {
-    background-color: rgb(60,221,243);
+    background-color: rgb(60, 221, 243);
     padding: 50px 20px;
     max-width: 100vw;
     margin-bottom: 50px;
@@ -116,14 +111,14 @@ body {
     justify-content: center;
   }
 
-  .h2 {
+  .whatsdifferent h2 {
     margin-bottom: 50px;
     color: white;
     font-size: 30px;
   }
 
-  .whatsdifferent2 {
-    color: white; 
+  .whatsdifferent p {
+    color: white;
   }
 
   .cards1 {
@@ -142,8 +137,8 @@ body {
     margin-bottom: 50px;
   }
 
-  .contenedor1 {
-    background-color: rgba(139,72,191,0.5);
+  .cards1 .track div {
+    background-color: rgba(139, 72, 191, 0.5);
     display: flex;
     gap: 1em;
     border-top-left-radius: 30px;
@@ -153,17 +148,16 @@ body {
     margin-bottom: 30px;
   }
 
-
-  .track2 {
-    background-color: rgb(139,72,191);
+  .cards1 .track div p {
+    background-color: rgb(139, 72, 191);
     padding: 10px 25px;
     border-radius: 30px;
     color: white;
     font-weight: bold;
   }
 
-  .contenedor2 {
-    background-color: rgba(139,72,191,0.5);
+  .cards1 .advance div {
+    background-color: rgba(139, 72, 191, 0.5);
     display: flex;
     gap: 1em;
     border-top-left-radius: 30px;
@@ -173,16 +167,16 @@ body {
     margin-bottom: 30px;
   }
 
-  .advance2 {
-    background-color: rgb(139,72,191);
+  .cards1 .advance div p {
+    background-color: rgb(139, 72, 191);
     padding: 10px 25px;
     border-radius: 30px;
     color: white;
     font-weight: bold;
   }
 
-  .contenedor3 {
-    background-color: rgba(139,72,191,0.5);
+  .cards1 .everything div {
+    background-color: rgba(139, 72, 191, 0.5);
     display: flex;
     gap: 1em;
     border-top-left-radius: 30px;
@@ -192,15 +186,15 @@ body {
     margin-bottom: 30px;
   }
 
-  .everything2 {
-    background-color: rgb(139,72,191);
+  .cards1 .everything div p {
+    background-color: rgb(139, 72, 191);
     padding: 10px 25px;
     border-radius: 30px;
     color: white;
     font-weight: bold;
   }
 
-  .h22 {
+  .h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 50px;
@@ -215,13 +209,13 @@ body {
     margin-bottom: 50px;
   }
 
-  .imglebron {
+  .cards2 .lebron img {
     margin-bottom: 10px;
   }
 
-  .plebron {
+  .cards2 .lebron h6 {
     margin-bottom: 10px;
-    font-weight: bold;
+    font-size: 13px;
   }
 
   .sanyo {
@@ -232,34 +226,36 @@ body {
     display: none;
   }
 
-  .more {
+  .more button {
     cursor: pointer;
-    background-color: rgb(139,72,191);
+    background-color: rgb(139, 72, 191);
     border: none;
-    padding: 10px 50PX;
+    padding: 10px 50px;
     border-radius: 30px;
     transition: all 0.5s;
   }
 
-  .more:hover {
+  .more button:hover {
     transform: scale(1.1);
   }
 
-  .more2 {
+  .more button a {
     color: white;
   }
 
-  .botonmore {
+  .more {
     text-align: center;
+    margin-bottom: 50px;
   }
 
   .getto {
-    background-color: rgb(60,221,243);
+    background-color: rgb(60, 221, 243);
     padding: 30px;
     text-align: center;
+    gap: 100em;
   }
 
-  .h23 {
+  .getto h2 {
     color: white;
     width: 200px;
     font-size: 30px;
@@ -267,8 +263,8 @@ body {
     margin-bottom: 30px;
   }
 
-  .goforit {
-    background-color: rgb(35,44,80);
+  .getto button {
+    background-color: rgb(35, 44, 80);
     cursor: pointer;
     padding: 10px 50px;
     border-radius: 30px;
@@ -276,21 +272,21 @@ body {
     transition: all 0.5s;
   }
 
-  .goforit:hover {
+  .getto button:hover {
     transform: scale(1.1);
   }
 
-  .goforit2 {
+  .getto button a {
     color: white;
   }
 
-  .imgfooter {
-    width: 30%;
+  footer {
+    background-color: rgb(30, 30, 38);
   }
 
-  footer  {
-    background-color: rgb(30,30,38);
-    object-fit: cover;
+  form {
+    padding-top: 40px;
+    margin-bottom: 70px;
   }
 
   #busqueda {
@@ -298,14 +294,15 @@ body {
     width: 250px;
     border: none;
     border-radius: 30px;
+    outline: none;
   }
 
   .busqueda {
     text-align: center;
   }
 
-  .go {
-    background-color: rgb(139,72,191);
+  .busqueda form button {
+    background-color: rgb(139, 72, 191);
     padding: 10px 20px;
     margin-left: 5px;
     color: white;
@@ -315,31 +312,17 @@ body {
     cursor: pointer;
   }
 
-  .go:hover {
+  .busqueda form button:hover {
     transform: scale(1.1);
   }
-  
-  form {
-    padding-top: 40px;
-    margin-bottom: 70px;
-  }
 
-  .ulfooter {
+  .uls div nav ul li a {
     color: white;
     transition: all 0.5s;
   }
 
-  .ulfooter:hover {
-    opacity: 0.9;
-  }
-
-  .ulfooter2 {
-    color: white;
-    transition: all 0.5s;
-  }
-
-  .ulfooter2:hover {
-    opacity: 0.9;
+  .uls div nav ul li a:hover {
+    opacity: 0.8;
   }
 
   .uls {
@@ -349,21 +332,17 @@ body {
     margin: 30px;
   }
 
-  .ul2 {
+  .uls div nav ul {
     line-height: 30px;
   }
 
-  .ul3 {
-    line-height: 30px;
-  }
-
-  .redes {
+  .redessociales i {
     color: white;
     font-size: 25px;
     transition: all 0.5s;
   }
 
-  .redes:hover {
+  .redessociales i:hover {
     transform: scale(1.2);
   }
 
@@ -371,6 +350,10 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 1em;
+  }
+
+  .logofooter img {
+    width: 30%;
   }
 
   .logofooter {
@@ -385,7 +368,436 @@ body {
     padding-bottom: 30px;
   }
 
-  .copy2 {
+  .copy p {
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  .logoheader img {
+    width: 150px;
+  }
+
+  header {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+  }
+
+  .navheader nav ul {
+    display: flex;
+    gap: 2em;
+  }
+
+  .navheader nav ul li a {
+    transition: all 0.5s;
+  }
+
+  .navheader nav ul li a:hover {
+    opacity: 0.4;
+  }
+
+  .botonheader button a {
+    color: white;
+  }
+
+  .botonheader button {
+    background-color: rgb(139, 72, 191);
+    border-radius: 30px;
+    padding: 10px 35px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .botonheader button:hover {
+    transform: scale(1.1);
+  }
+
+  .navheader i {
+    display: none;
+  }
+
+  .imgtenis {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section1 {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-bottom: 70px;
+  }
+
+  .section1 .live {
+    width: 400px;
+  }
+
+  .imgtenis img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .live {
+    text-align: right;
+    margin: 30px;
+  }
+
+  .live p {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .live button {
+    background-color: rgb(139, 72, 191);
+    border-radius: 30px;
+    padding: 10px 35px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .live button:hover {
+    transform: scale(1.1);
+  }
+
+  .live button a {
+    color: white;
+    font-size: 12px;
+  }
+
+  .whatsdifferent {
+    background-color: rgb(139, 72, 191);
+    padding: 50px 30px;
+    max-width: 100vw;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+  }
+
+  .whatsdifferent h2 {
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .whatsdifferent p {
+    color: white;
+    width: 400px;
+  }
+
+  .cards1 {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+
+  .track {
+    margin: 30px;
+  }
+
+  .advance {
+    margin: 30px;
+  }
+
+  .everything {
+    margin: 30px;
+  }
+
+  .cards1 .track div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+    right: 87px;
+  }
+
+  .cards1 .track {
+    width: 600px;
+  }
+
+  .cards1 .track div p {
+    background-color: rgb(139, 72, 191);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .cards1 .advance div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+    right: 87px;
+  }
+
+  .cards1 .advance {
+    width: 600px;
+  }
+
+  .cards1 .advance div p {
+    background-color: rgb(139, 72, 191);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .cards1 .everything div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+    right: 87px;
+  }
+
+  .cards1 .everything div p {
+    background-color: rgb(139, 72, 191);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .cards1 .everything {
+    width: 600px;
+  }
+
+  .h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .cards2 {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+  }
+
+  .lebron {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 500px;
+  }
+
+  .cards2 .lebron img {
+    margin-bottom: 10px;
+  }
+
+  .cards2 .lebron h6 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .sanyo {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 500px;
+  }
+
+  .cards2 .sanyo img {
+    margin-bottom: 10px;
+  }
+
+  .cards2 .sanyo h6 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .navarro {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 500px;
+  }
+
+  .cards2 .navarro img {
+    margin-bottom: 10px;
+  }
+
+  .cards2 .navarro h6 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .more button {
+    cursor: pointer;
+    background-color: rgb(139, 72, 191);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    transition: all 0.5s;
+  }
+
+  .more button:hover {
+    transform: scale(1.1);
+  }
+
+  .more button a {
+    color: white;
+  }
+
+  .more {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
+  .getto {
+    background-color: rgb(139, 72, 191);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30em;
+  }
+
+  .getto h2 {
+    color: white;
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .getto button {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.5s;
+    align-self: center;
+  }
+
+  .getto button:hover {
+    transform: scale(1.1);
+  }
+
+  .getto button a {
+    color: rgb(139, 72, 191);
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: rgb(30, 30, 38);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+
+  form {
+    padding-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  #busqueda {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+  }
+
+  .busqueda {
+    text-align: center;
+  }
+
+  .busqueda form button {
+    background-color: rgb(139, 72, 191);
+    padding: 10px 20px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .busqueda form button:hover {
+    transform: scale(1.1);
+  }
+
+  .uls div nav ul li a {
+    color: white;
+    transition: all 0.5s;
+
+  }
+
+  .uls div nav ul li a:hover {
+    opacity: 0.8;
+  }
+
+  .uls {
+    display: flex;
+    gap: 10em;
+    justify-content: space-around;
+    margin: 30px;
+  }
+
+  .uls div nav ul {
+    line-height: 40px;
+  }
+
+  .redessociales i {
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s;
+  }
+
+  .redessociales i:hover {
+    transform: scale(1.2);
+  }
+
+  .redessociales {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+  }
+
+  .logofooter img {
+    width: 150px;
+  }
+
+  .logofooter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logoredes {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .copy p {
     color: white;
   }
 }
