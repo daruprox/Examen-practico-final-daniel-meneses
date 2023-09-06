@@ -21,7 +21,7 @@ body {
   }
 
   25% {
-    transform: translateY(90px);
+    transform: translateY(-90px);
   }
 
   100% {
